@@ -8,6 +8,9 @@ packages = [{include = "docker_django_celery"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+Django = "^4.1.2"
+djangorestframework = "^3.14.0"
+celery = "^5.2.7"
 
 
 [build-system]
