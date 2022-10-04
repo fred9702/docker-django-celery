@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T17:39:01.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.4.0" etag="tKUdJZ4lAAfsm5JD31IE" type="github"><diagram id="h9P8QFctZcK5koL35d4O">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-04T17:46:06.967Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="84c61J5Zle-FSp9H8_Oj" version="20.4.0" type="github">
+  <diagram id="h9P8QFctZcK5koL35d4O" name="Page-1">
+    <mxGraphModel dx="1018" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1iveG0I8i9rxzFN6S-MZ-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1iveG0I8i9rxzFN6S-MZ-3" value="" style="swimlane;startSize=0;" vertex="1" parent="1iveG0I8i9rxzFN6S-MZ-2">
+          <mxGeometry x="40" y="50" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1iveG0I8i9rxzFN6S-MZ-5" value="Celery Beat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1iveG0I8i9rxzFN6S-MZ-3">
+          <mxGeometry x="-5" y="15" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1iveG0I8i9rxzFN6S-MZ-6" value="Django API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1iveG0I8i9rxzFN6S-MZ-2">
+          <mxGeometry x="10" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1iveG0I8i9rxzFN6S-MZ-11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="180" y="400" width="70.5" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="1iveG0I8i9rxzFN6S-MZ-16" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="220" y="410" width="70.5" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="1iveG0I8i9rxzFN6S-MZ-17" value="" style="swimlane;startSize=0;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="310" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="1iveG0I8i9rxzFN6S-MZ-18" value="Docker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="175" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
