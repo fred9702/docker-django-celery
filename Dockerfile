@@ -2,12 +2,12 @@ FROM python:3
 
 WORKDIR /app
 
-RUN POETRY_VIRTUALENVS_CREATE=false pip install poetry
+RUN pip install poetry
 
-COPY poetry.lock pyproject.toml ./
+COPY pyproject.toml poetry.lock /app/
 
-RUN POETRY_VIRTUALENVS_CREATE=false poetry install
+RUN poetry config virtualenvs.create false && poetry install
 
-COPY ./ddc .
+COPY /ddc /app/
 
-CMD [ "bash", "start_app.sh" ]
+ENTRYPOINT [ "bash", "start_app.sh" ]

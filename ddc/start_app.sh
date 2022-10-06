@@ -1,8 +1,8 @@
 echo "Making migrations..."
-python manage.py makemigration
+python manage.py makemigrations
 
-echo "Applying migrations..."
+echo "Running migrations..."
 python manage.py migrate
 
-echo "Starting App..."
-python manage.py runserver 
+echo "Starting ddc app..."
+python manage.py runserver 0.0.0.0:8000
